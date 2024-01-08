@@ -1,6 +1,9 @@
-*{
+* {
     margin: auto;
 }
+
+/*bannar styling*/
+
 .bannar {
     position: relative;
     display: flex;
@@ -12,7 +15,7 @@
 
 }
 
-.bannar::before{
+.bannar::before {
     content: "";
     position: absolute;
     border-radius: 16px;
@@ -20,6 +23,7 @@
     height: 600px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
+
 .text-container {
     position: absolute;
     width: 632px;
@@ -48,4 +52,35 @@
     font-family: 'Merriweather', serif;
     font-size: 32px;
     font-weight: 400;
+}
+
+/*offer styling*/
+
+.offer-title {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 88px;
+    font-weight: 700;
+}
+
+#offer-tagline {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#offer-subheading {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#offer-image {
+    width: 802.90px; 
+    height: 500px;
 }
