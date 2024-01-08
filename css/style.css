@@ -36,7 +36,7 @@
     margin: 0px;
     padding: 0px;
     color: white;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 72px;
     font-weight: 900;
 }
@@ -45,7 +45,7 @@
     margin: 0px;
     padding: 0px;
     color: white;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 32px;
     font-weight: 400;
 }
