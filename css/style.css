@@ -248,3 +248,99 @@
     position: relative;
     margin-top: 316px;
 }
+
+/*footer section*/
+footer {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 120px;
+    max-width: 1600px;
+    max-height: 609px;
+    background: #070211;
+}
+
+hr {
+    width: 1320px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+#footer-address {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 375px;
+    max-height: 80px;
+}
+
+#footer-contact {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#footer-lower {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+.logo-links {
+    margin: 0px 24px;
+    display: inline-block;
+    position: relative;
+}
+
+#social-links {
+    margin: 48px 24px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#footer-address,
+#copyright {
+    display: inline-flex;
+    text-align: left;
+}
+
+#unsubscribe-button {
+    display: inline-flex;
+    text-align: right;
+    background: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+
+
+}
+
+#unsubscribe-button:hover {
+    border-color: #FFF;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+#footer-contact {
+    display: block;
+    text-align: right;
+}
+
+#footer-upper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
